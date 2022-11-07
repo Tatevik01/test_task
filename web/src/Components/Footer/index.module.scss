@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: whitesmoke;
+    z-index: 1;
+
+    a {
+        margin-left: 3%;
+    }
+
+    .icon {
+        width: 40px;
+    }
+
+    a:nth-child(4) {
+        svg {
+            g:first-child {
+                path:first-child {
+                    fill: #4D76A1 !important;
+                }
+            }
+        }
+    }
+}

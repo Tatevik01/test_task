@@ -1,0 +1,45 @@
+.navBar {
+    background-color: transparent !important;
+    position: sticky !important;
+    top: 0 !important;
+    background: whitesmoke !important;
+    z-index: 2;
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .menu_link {
+            background-color: #4D76A1;
+        }
+
+        .logo_icon {
+            width: 60px;
+            margin-right: 30px;
+        }
+
+        .paragraph {
+            margin-left: 20px !important;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        .link {
+            text-decoration: none;
+            color: #23591D;
+            font-weight: bold;
+            font-size: 18px;
+
+            &:hover {
+                color: #333;
+            }
+        }
+    }
+}
+
+.link_xs {
+    text-decoration: none !important;
+    color: #23591D;
+}

@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    justify-content: center;
+
+    .form {
+        width: 550px;
+        margin-top: 30px;
+        padding: 20px;
+        background: white;
+
+        h1 {
+            color: #375B38;
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .textField {
+            margin-top: 20px;
+
+            input {
+                background-color: white;
+            }
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        .error {
+            &::before {
+                display: inline-block;
+                content: "*";
+            }
+
+            color: #C01B0C;
+            margin-top: 3px;
+        }
+
+        .select {
+            margin-top: 20px;
+            background-color: white;
+        }
+
+
+        button {
+            border: 1px solid green;
+            width: 30%;
+            height: 36px;
+            float: right;
+            margin-top: 2%;
+            border-radius: 5px;
+            background-color: #449539;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+
+            &:hover {
+                cursor: pointer;
+                background-color: white;
+                color: #449539;
+
+            }
+        }
+    }
+}
